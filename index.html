@@ -12,9 +12,7 @@
   <script type="importmap">
   {
     "imports": {
-      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
-      "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/index.js",
-      "gsap/ScrollTrigger": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollTrigger.js"
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
     }
   }
   </script>
@@ -60,7 +58,7 @@
         <p class="hero-eyebrow">Carnegie Mellon University</p>
         <h1 id="hero-title" class="hero-title">Team Tartan</h1>
         <p class="hero-sub">A real-time social coordination platform for Carnegie Mellon University students</p>
-        <p class="hero-hook">Because great experiences shouldn&apos;t require knowing the right people.</p>
+        <!-- <p class="hero-hook">Because great experiences shouldn't require knowing the right people.</p> -->
       </div>
       <a class="scroll-indicator" href="#problem" aria-label="Scroll to The Opportunity">
         <span class="scroll-indicator__text">Explore</span>
@@ -73,7 +71,7 @@
       <div class="container">
         <header class="section-header">
           <h2 id="problem-title">The Opportunity</h2>
-          <p class="lead">CMU is a high-pressure academic environment where loneliness and social isolation are documented concerns. Students want to host events, join pickup sports, and meet people — but there&apos;s no single place to do it. Discovery is scattered across Discord servers, flyers, and word-of-mouth, systematically disadvantaging new, international, and transfer students.</p>
+          <p class="lead">CMU is a high-pressure academic environment where loneliness and social isolation are real problems. Students want to host events, join pickup sports, and meet people, but there's no single place to do it. Discovery is scattered across Discord servers, flyers, and word-of-mouth, which puts new, international, and transfer students at a disadvantage.</p>
         </header>
 
       </div>
@@ -81,30 +79,18 @@
       <div class="container">
         <div class="pain-grid">
           <article class="glass-card pain-card reveal">
-            <div class="pain-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-            </div>
             <h3>No central platform</h3>
             <p>No central platform for informal events.</p>
           </article>
           <article class="glass-card pain-card reveal">
-            <div class="pain-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none"><path d="M8 36l8-16 8 8 8-16 8 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="20" r="4" stroke="currentColor" stroke-width="2"/></svg>
-            </div>
             <h3>Pickup games fall apart</h3>
             <p>Pickup games fall apart without enough players.</p>
           </article>
           <article class="glass-card pain-card reveal">
-            <div class="pain-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none"><circle cx="18" cy="16" r="6" stroke="currentColor" stroke-width="2"/><circle cx="30" cy="16" r="6" stroke="currentColor" stroke-width="2"/><path d="M12 36c0-6 6-10 12-10s12 4 12 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-            </div>
             <h3>New students stay on the outside</h3>
-            <p>New students can&apos;t break into social circles.</p>
+            <p>New students can't break into social circles.</p>
           </article>
           <article class="glass-card pain-card reveal">
-            <div class="pain-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="10" width="32" height="28" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 18h32M16 26h16M16 32h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-            </div>
             <h3>Fragmented discovery</h3>
             <p>Event discovery is fragmented and unreliable.</p>
           </article>
@@ -139,32 +125,28 @@
       <div class="container">
         <header class="section-header">
           <h2 id="solution-title">Our Solution</h2>
-          <p class="lead">A real-time, student-centered web platform where any verified CMU student (via Andrew ID SSO) can post a spontaneous or planned activity — pickup basketball, poker night, movie watch party, study session — and watch it appear instantly in a live campus feed.</p>
+          <p class="lead">A real-time, student-centered web platform where any verified CMU student (via Andrew ID) can post a spontaneous or planned activity, from pickup basketball, poker night, movie watch party, study session, and watch it appear instantly in a live campus feed.</p>
         </header>
       </div>
 
       <div class="container">
         <div class="feature-grid">
           <article class="glass-card feature-card reveal"><h3>Live Event Feed</h3><p>Real-time, auto-updates.</p></article>
-          <article class="glass-card feature-card reveal"><h3>One-tap RSVP</h3><p>Live capacity counter.</p></article>
-          <article class="glass-card feature-card reveal"><h3>Auto-close</h3><p>When the event is full.</p></article>
+          <article class="glass-card feature-card reveal"><h3>RSVP</h3><p>Live capacity counter.</p></article>
           <article class="glass-card feature-card reveal"><h3>Andrew ID verification</h3><p>Trust and safety for every participant.</p></article>
-          <article class="glass-card feature-card reveal"><h3>Anonymous participation</h3><p>Optional anonymous RSVP mode.</p></article>
-          <article class="glass-card feature-card reveal"><h3>Campus map</h3><p>Location pins for where things happen.</p></article>
-          <article class="glass-card feature-card reveal"><h3>Post-event connections</h3><p>Opt-in attendee networking after the event.</p></article>
-          <article class="glass-card feature-card reveal"><h3>Smart notifications</h3><p>Optional nudges when spots open or events match your interests.</p></article>
+          <article class="glass-card feature-card reveal"><h3>One-Click Details</h3><p>See all participants and details in one click.</p></article>
+          <!-- <article class="glass-card feature-card reveal"><h3>Post-event connections</h3><p>Opt-in attendee networking after the event.</p></article> -->
+          <!-- <article class="glass-card feature-card reveal"><h3>Smart notifications</h3><p>Optional nudges when spots open or events match your interests.</p></article> -->
         </div>
       </div>
+      <br>
 
-        <div class="full-bleed globe-band scroll-anim" aria-labelledby="globe-heading">
+        <!-- <div class="full-bleed globe-band scroll-anim" aria-labelledby="globe-heading">
           <div class="globe-band__inner">
             <h3 id="globe-heading" class="globe-band__title">One campus surface</h3>
-            <p class="globe-band__lede">Events map to real places — the feed is tied to where people actually gather.</p>
-            <div class="globe-stage">
-              <canvas id="globe-canvas" width="640" height="360" aria-hidden="true"></canvas>
-            </div>
+            <p class="globe-band__lede">Events map to real places. The feed is tied to where people actually gather.</p>
           </div>
-        </div>
+        </div> -->
 
       <div class="container">
         <div class="solution-split reveal">
@@ -209,12 +191,11 @@
               <h3 class="workflow__title">How it works</h3>
               <ol class="workflow__steps">
                 <li class="workflow-step glass-card reveal"><span class="workflow-step__num">1</span><span class="workflow-step__text">Login with Andrew ID</span></li>
-                <li class="workflow-step glass-card reveal"><span class="workflow-step__num">2</span><span class="workflow-step__text">Post event (title, location, time, max players)</span></li>
+                <li class="workflow-step glass-card reveal"><span class="workflow-step__num">2</span><span class="workflow-step__text">Post event (title, location, time, max participants)</span></li>
                 <li class="workflow-step glass-card reveal"><span class="workflow-step__num">3</span><span class="workflow-step__text">Event appears in live feed</span></li>
                 <li class="workflow-step glass-card reveal"><span class="workflow-step__num">4</span><span class="workflow-step__text">Others RSVP</span></li>
                 <li class="workflow-step glass-card reveal"><span class="workflow-step__num">5</span><span class="workflow-step__text">Capacity fills</span></li>
                 <li class="workflow-step glass-card reveal"><span class="workflow-step__num">6</span><span class="workflow-step__text">Event auto-closes</span></li>
-                <li class="workflow-step glass-card reveal"><span class="workflow-step__num">7</span><span class="workflow-step__text">Post-event connection opt-in</span></li>
               </ol>
             </div>
           </div>
@@ -222,7 +203,7 @@
 
         <aside class="differentiator glass-card reveal">
           <h3>Why Team Tartan</h3>
-          <p>Unlike TartanConnect (too bureaucratic), Facebook Events (too broad), or Meetup (off-campus) — Team Tartan is hyperlocal, identity-verified, and built for spontaneity.</p>
+          <p>Unlike TartanConnect (too bureaucratic), Facebook Events (too broad), or Meetup (off-campus), Team Tartan is hyperlocal, identity-verified, and built for spontaneity.</p>
         </aside>
       </div>
     </section>
@@ -233,8 +214,6 @@
         <header class="section-header">
           <h2 id="strategy-title">Strategic Analysis</h2>
         </header>
-
-        <p class="strategy-visual-intro">Strategy connects discovery → commitment → partnership — from whiteboard to handshake.</p>
       </div>
 
       <div class="container">
@@ -242,27 +221,27 @@
           <h3>Value chain analysis</h3>
           <div class="value-chain" role="list">
             <div class="value-chain__item" role="listitem">
-              <span class="value-chain__stage">1 · Event Creation</span>
+              <span class="value-chain__stage">1 - Event Creation</span>
               <p>Students post in seconds; zero coordination overhead.</p>
             </div>
             <span class="value-chain__arrow" aria-hidden="true">→</span>
             <div class="value-chain__item" role="listitem">
-              <span class="value-chain__stage">2 · Discovery &amp; Matching</span>
+              <span class="value-chain__stage">2 - Discovery & Matching</span>
               <p>Algorithm surfaces events by interest, location, availability.</p>
             </div>
             <span class="value-chain__arrow" aria-hidden="true">→</span>
             <div class="value-chain__item" role="listitem">
-              <span class="value-chain__stage">3 · RSVP &amp; Participation</span>
+              <span class="value-chain__stage">3 - RSVP & Participation</span>
               <p>Commitment signals reduce no-shows; auto-capacity management.</p>
             </div>
             <span class="value-chain__arrow" aria-hidden="true">→</span>
             <div class="value-chain__item" role="listitem">
-              <span class="value-chain__stage">4 · Post-Event Connection</span>
+              <span class="value-chain__stage">4 - Post-Event Connection</span>
               <p>Opt-in networking extends value beyond the event.</p>
             </div>
             <span class="value-chain__arrow" aria-hidden="true">→</span>
             <div class="value-chain__item" role="listitem">
-              <span class="value-chain__stage">5 · Data &amp; Insights</span>
+              <span class="value-chain__stage">5 - Data & Insights</span>
               <p>Student Affairs gains visibility into social engagement trends.</p>
             </div>
           </div>
@@ -288,27 +267,6 @@
           </div>
         </div>
 
-        <div class="strategy-block">
-          <h3>Business model</h3>
-          <ol class="roadmap">
-            <li class="roadmap__phase glass-card">
-              <span class="roadmap__num">Phase 1</span>
-              <p>Free university-endorsed platform (like Canvas or Handshake).</p>
-            </li>
-            <li class="roadmap__phase glass-card">
-              <span class="roadmap__num">Phase 2</span>
-              <p>Institutional license to CMU Student Affairs.</p>
-            </li>
-            <li class="roadmap__phase glass-card">
-              <span class="roadmap__num">Phase 3</span>
-              <p>Expand to CMU regional campuses (Silicon Valley, Qatar).</p>
-            </li>
-            <li class="roadmap__phase glass-card">
-              <span class="roadmap__num">Phase 4</span>
-              <p>License to peer institutions (Pitt, Georgia Tech, MIT).</p>
-            </li>
-          </ol>
-        </div>
       </div>
     </section>
 
@@ -333,7 +291,7 @@
             </div>
             <h3>Sociotechnical Systems Theory</h3>
             <p>Technology and social systems must co-evolve.</p>
-            <p class="theory-card__callout"><strong>Applied to Team Tartan:</strong> We do not only digitize event posting — we reshape how students discover community. CMU&apos;s culture of academic intensity and club fragmentation is the social system the platform must work within and gradually shift.</p>
+            <p class="theory-card__callout"><strong>Applied to Team Tartan:</strong> We don't just digitize event posting. We reshape how students discover community. CMU's culture of academic intensity and club fragmentation is the social system the platform must work within and gradually shift.</p>
           </article>
           <article class="glass-card theory-card reveal">
             <div class="theory-card__thumb">
@@ -360,9 +318,9 @@
       <div class="container">
         <div class="stats-row">
           <div class="stat-tile glass-card reveal"><span class="stat-tile__value">500+</span><span class="stat-tile__label">Monthly Active Users <span class="stat-tile__note">(projected, Year 1)</span></span></div>
-          <div class="stat-tile glass-card reveal"><span class="stat-tile__value">3+</span><span class="stat-tile__label">Events Per Day Average</span></div>
-          <div class="stat-tile glass-card reveal"><span class="stat-tile__value">4</span><span class="stat-tile__label">CMU Campuses <span class="stat-tile__note">(expansion target)</span></span></div>
-          <div class="stat-tile glass-card reveal"><span class="stat-tile__value">10+</span><span class="stat-tile__label">Peer Institutions <span class="stat-tile__note">(licensing target)</span></span></div>
+          <div class="stat-tile glass-card reveal"><span class="stat-tile__value">30+</span><span class="stat-tile__label">Events Per Day Average</span></div>
+          <div class="stat-tile glass-card reveal"><span class="stat-tile__value">5</span><span class="stat-tile__label">Campuses <span class="stat-tile__note">(expansion target)</span></span></div>
+          <!-- <div class="stat-tile glass-card reveal"><span class="stat-tile__value">10+</span><span class="stat-tile__label">Peer Institutions <span class="stat-tile__note">(licensing target)</span></span></div> -->
         </div>
 
         <div class="impact-columns">
@@ -378,10 +336,10 @@
           <div class="glass-card impact-column reveal">
             <h3>Societal Impact</h3>
             <ul>
-              <li>Reduces documented social isolation at a high-pressure institution.</li>
+              <li>Reduces social isolation at a high-pressure institution.</li>
               <li>Lowers barriers for marginalized student populations (international, transfer, underrepresented).</li>
-              <li>Builds a replicable model for campus social infrastructure at other universities.</li>
-              <li>Creates lasting peer connections that extend beyond individual events.</li>
+              <li>Builds a replicable model for other universities.</li>
+              <li>Creates lasting peer connections that beyond individual events.</li>
             </ul>
           </div>
         </div>
@@ -396,34 +354,33 @@
         </header>
         <div class="team-grid">
           <article class="glass-card team-card reveal">
-            <span class="team-card__initials team-card__initials--accent" aria-hidden="true">BL</span>
             <h3>Brian Lam</h3>
             <p class="team-card__role">Lead Web Developer</p>
             <p>Platform architecture, frontend development, UI/UX design.</p>
           </article>
           <article class="glass-card team-card reveal">
-            <span class="team-card__initials" aria-hidden="true">SR</span>
-            <h3>Sahill Reddy</h3>
+            <h3>Sahil Reddy</h3>
             <p class="team-card__role">Web Developer</p>
             <p>Backend logic, feature implementation, co-developed platform.</p>
           </article>
           <article class="glass-card team-card reveal">
-            <span class="team-card__initials team-card__initials--accent" aria-hidden="true">RS</span>
             <h3>Rushil Singh</h3>
             <p class="team-card__role">Design Lead</p>
             <p>Visual identity, posterboard, presentation materials.</p>
           </article>
           <article class="glass-card team-card reveal">
-            <span class="team-card__initials" aria-hidden="true">JT</span>
             <h3>Justin Tan</h3>
-            <p class="team-card__role">Research &amp; Design</p>
+            <p class="team-card__role">Research & Design</p>
             <p>Research synthesis, people project, poster co-development.</p>
           </article>
         </div>
         <div class="glass-card collaboration reveal">
           <h3>Collaboration</h3>
-          <p>We split into two focused pairs: Brian &amp; Sahill owned platform development; Rushil &amp; Justin owned design and research. Major decisions required full team consensus. All conflicts were resolved by weighing both perspectives against what most benefited the project.</p>
-          <a class="btn-poster" href="https://canva.link/ktknawiwq1p1k5v" target="_blank" rel="noopener noreferrer">View project poster (Canva)</a>
+          <p>We split into two focused pairs: Brian and Sahil owned platform development; Rushil and Justin owned design and research. Major decisions required full team consensus. All conflicts were resolved by weighing both perspectives against what most benefited the project.</p>
+          <div class="collaboration-buttons">
+            <a class="btn-poster" href="https://canva.link/ktknawiwq1p1k5v" target="_blank" rel="noopener noreferrer">View project poster</a>
+            <a class="btn-poster" href="https://team-tartan.vercel.app" target="_blank" rel="noopener noreferrer">View website</a>
+          </div>
         </div>
       </div>
     </section>
